@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="64ca2488-e03e-4bfd-a8bb-d1116f3eee25" name="sandip@DELL 2015-08-20 12:13:36" runUser="Dell\sandip" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3adc5615-b8fe-48c5-a8a8-59c6e6717e9f">
+    <Deployment runDeploymentRoot="sandip_DELL 2015-08-20 12_13_36">
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Bcl.1.1.9\lib\net40\System.Runtime.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant\bin\TheRestaurant.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Ninject.MVC3.3.2.1.0\lib\net40-full\Ninject.Web.Mvc.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Bcl.1.1.9\lib\net40\System.IO.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.WebData.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Bcl.1.1.9\lib\net40\System.Threading.Tasks.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\Ninject.Web.Common.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\WebActivatorEx.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\DotNetOpenAuth.Core.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\WebGrease.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\PagedList.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.WebPages.OAuth.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\Ninject.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.Data.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant.Tests\bin\Debug\AutoMapper.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-08-20T12:13:36.2099571+10:00" queuing="2015-08-20T12:13:50.4098520+10:00" start="2015-08-20T12:13:50.7080643+10:00" finish="2015-08-20T12:14:13.1880921+10:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DELL" outcome="Warning" timestamp="2015-08-20T12:13:47.3796996+10:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="DELL" outcome="Warning" timestamp="2015-08-20T12:13:47.3796996+10:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="DELL" outcome="Error" timestamp="2015-08-20T12:14:13.1850886+10:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddInvalidRestaurant" storage="f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll" id="1c69710c-c226-cb91-268e-a8f5d0287081">
+      <Execution id="4ba41b3e-2a8a-4fd4-b6f2-347a5a6c3886" />
+      <TestMethod codeBase="F:/Works/TheRestaurant/Working/TheRestaurant.Tests/bin/Debug/TheRestaurant.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheRestaurant.Tests.RestaurantControllerTest, TheRestaurant.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddInvalidRestaurant" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1c69710c-c226-cb91-268e-a8f5d0287081" executionId="4ba41b3e-2a8a-4fd4-b6f2-347a5a6c3886" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4ba41b3e-2a8a-4fd4-b6f2-347a5a6c3886" testId="1c69710c-c226-cb91-268e-a8f5d0287081" testName="AddInvalidRestaurant" computerName="DELL" duration="00:00:22.1648038" startTime="2015-08-20T12:13:51.0232883+10:00" endTime="2015-08-20T12:14:13.1880921+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ba41b3e-2a8a-4fd4-b6f2-347a5a6c3886">
+    </UnitTestResult>
+  </Results>
+</TestRun>

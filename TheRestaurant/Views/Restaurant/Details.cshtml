@@ -1,0 +1,50 @@
+﻿@model TheRestaurant.Models.Restaurant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Restaurant</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Country)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Country)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+<div>
+@foreach (var item in Model.Reviews)
+{
+    <div class="display-field">
+        @Html.DisplayFor(model => item.ReviewerName)
+        @Html.DisplayFor(model=>item.Body)
+        @Html.DisplayFor(model=>item.Rating)
+        
+    </div>
+    <div class="display-field">
+    
+    </div>
+}
+</div>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6b8c5811-db49-4840-9143-bc21cf4ab83d" name="sandip@DELL 2015-08-20 11:19:38" runUser="Dell\sandip" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="5921e664-6cba-4c1b-bf5a-e6a3352da750">
+    <Deployment runDeploymentRoot="sandip_DELL 2015-08-20 11_19_38">
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant\bin\TheRestaurant.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-08-20T11:19:38.7952391+10:00" queuing="2015-08-20T11:19:42.5467404+10:00" start="2015-08-20T11:19:43.0250789+10:00" finish="2015-08-20T11:20:07.6761032+10:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DELL" outcome="Warning" timestamp="2015-08-20T11:19:39.8303195+10:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="DELL" outcome="Warning" timestamp="2015-08-20T11:19:39.8303195+10:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="DELL" outcome="Error" timestamp="2015-08-20T11:20:07.6700980+10:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll" id="1b780ad4-7f6c-fe53-0193-0275e24b5cbc">
+      <Execution id="09eced1d-97a2-4d4f-ae28-fbba6aee6579" />
+      <TestMethod codeBase="F:/Works/TheRestaurant/Working/TheRestaurant.Tests/bin/Debug/TheRestaurant.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheRestaurant.Tests.Controllers.HomeControllerTest, TheRestaurant.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b780ad4-7f6c-fe53-0193-0275e24b5cbc" executionId="45ac15d5-b6b1-4500-8f1d-4d93f615feed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="45ac15d5-b6b1-4500-8f1d-4d93f615feed" testId="1b780ad4-7f6c-fe53-0193-0275e24b5cbc" testName="Index" computerName="DELL" duration="00:00:24.1706854" startTime="2015-08-20T11:19:43.5054178+10:00" endTime="2015-08-20T11:20:07.6761032+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45ac15d5-b6b1-4500-8f1d-4d93f615feed">
+    </UnitTestResult>
+  </Results>
+</TestRun>

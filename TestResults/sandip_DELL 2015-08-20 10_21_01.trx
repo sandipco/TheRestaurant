@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f34eab39-de58-44ae-a9b0-23a0de1eb3f2" name="sandip@DELL 2015-08-20 10:21:01" runUser="Dell\sandip" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="40d24444-1171-441f-94d0-746381238384">
+    <Deployment runDeploymentRoot="sandip_DELL 2015-08-20 10_21_01">
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\TheRestaurant\bin\TheRestaurant.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="F:\Works\TheRestaurant\Working\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-08-20T10:21:01.4793130+10:00" queuing="2015-08-20T10:21:04.4534303+10:00" start="2015-08-20T10:21:04.6725827+10:00" finish="2015-08-20T10:21:07.6196761+10:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DELL" outcome="Warning" timestamp="2015-08-20T10:21:02.6241269+10:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="DELL" outcome="Warning" timestamp="2015-08-20T10:21:02.6241269+10:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Weighted_Averaging_For_Two_Reviews" storage="f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll" id="14bc29a4-024c-5c89-10dd-5eb3d5b8fc5a">
+      <Execution id="71daf566-ce80-4c51-a313-64d22831c735" />
+      <TestMethod codeBase="F:/Works/TheRestaurant/Working/TheRestaurant.Tests/bin/Debug/TheRestaurant.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheRestaurant.Tests.Features.RatingTests, TheRestaurant.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Weighted_Averaging_For_Two_Reviews" />
+    </UnitTest>
+    <UnitTest name="Computes_Result_For_Two_Reviews" storage="f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll" id="6401ad2b-9869-ddf0-f8ea-b6d2787203c6">
+      <Execution id="34b92a1b-5393-4fca-9714-72580bf75bcb" />
+      <TestMethod codeBase="F:/Works/TheRestaurant/Working/TheRestaurant.Tests/bin/Debug/TheRestaurant.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheRestaurant.Tests.Features.RatingTests, TheRestaurant.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Computes_Result_For_Two_Reviews" />
+    </UnitTest>
+    <UnitTest name="Computes_Result_For_One_Review" storage="f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll" id="9ab008ca-bbce-26a1-e780-9c5e9810db4a">
+      <Execution id="22cc6fe2-eb21-4749-be18-3060419b387a" />
+      <TestMethod codeBase="F:/Works/TheRestaurant/Working/TheRestaurant.Tests/bin/Debug/TheRestaurant.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheRestaurant.Tests.Features.RatingTests, TheRestaurant.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Computes_Result_For_One_Review" />
+    </UnitTest>
+    <UnitTest name="Rating_Includes_Only_First_N_Reviews" storage="f:\works\therestaurant\working\therestaurant.tests\bin\debug\therestaurant.tests.dll" id="6c17f12e-daf5-704d-75ad-eee9d24fc16e">
+      <Execution id="4a80542e-c849-4ded-aa00-526dfca46efc" />
+      <TestMethod codeBase="F:/Works/TheRestaurant/Working/TheRestaurant.Tests/bin/Debug/TheRestaurant.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TheRestaurant.Tests.Features.RatingTests, TheRestaurant.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Rating_Includes_Only_First_N_Reviews" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="14bc29a4-024c-5c89-10dd-5eb3d5b8fc5a" executionId="71daf566-ce80-4c51-a313-64d22831c735" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6401ad2b-9869-ddf0-f8ea-b6d2787203c6" executionId="34b92a1b-5393-4fca-9714-72580bf75bcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c17f12e-daf5-704d-75ad-eee9d24fc16e" executionId="4a80542e-c849-4ded-aa00-526dfca46efc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ab008ca-bbce-26a1-e780-9c5e9810db4a" executionId="22cc6fe2-eb21-4749-be18-3060419b387a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="71daf566-ce80-4c51-a313-64d22831c735" testId="14bc29a4-024c-5c89-10dd-5eb3d5b8fc5a" testName="Weighted_Averaging_For_Two_Reviews" computerName="DELL" duration="00:00:00.0510465" startTime="2015-08-20T10:21:05.0708643+10:00" endTime="2015-08-20T10:21:07.3554870+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71daf566-ce80-4c51-a313-64d22831c735">
+    </UnitTestResult>
+    <UnitTestResult executionId="34b92a1b-5393-4fca-9714-72580bf75bcb" testId="6401ad2b-9869-ddf0-f8ea-b6d2787203c6" testName="Computes_Result_For_Two_Reviews" computerName="DELL" duration="00:00:00.0023074" startTime="2015-08-20T10:21:07.3755078+10:00" endTime="2015-08-20T10:21:07.3895121+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34b92a1b-5393-4fca-9714-72580bf75bcb">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a80542e-c849-4ded-aa00-526dfca46efc" testId="6c17f12e-daf5-704d-75ad-eee9d24fc16e" testName="Rating_Includes_Only_First_N_Reviews" computerName="DELL" duration="00:00:00.0008500" startTime="2015-08-20T10:21:07.4055287+10:00" endTime="2015-08-20T10:21:07.4175316+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a80542e-c849-4ded-aa00-526dfca46efc">
+    </UnitTestResult>
+    <UnitTestResult executionId="22cc6fe2-eb21-4749-be18-3060419b387a" testId="9ab008ca-bbce-26a1-e780-9c5e9810db4a" testName="Computes_Result_For_One_Review" computerName="DELL" duration="00:00:00.0010240" startTime="2015-08-20T10:21:07.4355463+10:00" endTime="2015-08-20T10:21:07.4525579+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22cc6fe2-eb21-4749-be18-3060419b387a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
